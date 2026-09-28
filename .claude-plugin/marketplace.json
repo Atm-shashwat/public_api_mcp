@@ -1,0 +1,14 @@
+{
+  "name": "atomberg",
+  "owner": {
+    "name": "Atomberg"
+  },
+  "description": "Claude Code plugins for the Atomberg public developer API",
+  "plugins": [
+    {
+      "name": "atomberg-iot",
+      "source": "./plugins/atomberg-iot",
+      "description": "Read and control the Atomberg fans and water purifiers on your account"
+    }
+  ]
+}

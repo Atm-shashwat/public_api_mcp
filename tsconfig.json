@@ -1,0 +1,14 @@
+{
+  // Type-check only. esbuild does the actual build (see "build" in package.json),
+  // bundling src/ and its dependencies into the plugin's single dist/index.js.
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["src"]
+}
