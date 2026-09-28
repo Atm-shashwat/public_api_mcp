@@ -27,7 +27,7 @@ token.
 Requires Node 18 or later on your PATH.
 
 ```
-/plugin marketplace add <this repository's git URL, or a local path to it>
+/plugin marketplace add Atm-shashwat/public_api_mcp
 /plugin install atomberg-iot@atomberg
 ```
 
